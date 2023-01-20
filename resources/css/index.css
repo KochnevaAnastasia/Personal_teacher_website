@@ -1,0 +1,95 @@
+html {
+    font-family: 'Jura', sans-serif;
+}
+
+.navbar {
+    background-color: #70798c;
+    color: #333533;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1; 
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none ;
+    color: #cfdbd5;
+}
+
+.banner {
+    background-color: #cfdbd5;
+    color: #333533;
+    margin-top: 50px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#face {
+    height: 300px;
+    filter: drop-shadow(1px 1px 1px black);
+    z-index: -1;
+}
+
+#qoute {
+    border-top: 2px solid #70798c;
+    border-bottom: 2px solid #70798c;
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+}
+
+#avito {
+    text-decoration: none;
+    background-color: #5f0f40;
+    color: #cfdbd5;
+    border: 3px solid #70798c;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#subjects {
+    color: #70798c;
+    text-align: center; 
+    text-transform: uppercase;
+    font-size: 25px;
+    word-spacing: 5px;
+}
+
+#materials ul{
+    list-style-type: none;
+}
+
+#materials li{
+    padding: 20px 50px;;
+}
+
+#list-m {
+    padding-left: 50px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.icon{
+    background-image: url(../images/book.png);
+    background-size: contain;
+    background-color: none;
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    vertical-align: middle;
+    opacity: 50%;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+a.purple {
+    color: #5f0f40;
+}
+
