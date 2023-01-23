@@ -1,2 +1,2 @@
-# kochnevaanastasia.github.io
+# kochnev.github.io
 My first website
